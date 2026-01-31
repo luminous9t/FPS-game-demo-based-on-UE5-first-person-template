@@ -1,0 +1,53 @@
+# 这是为虚幻引擎项目准备的 .gitignore 文件
+# 来源：GitHub 官方 UE.gitignore 模板
+
+# 二进制文件
+*.exe
+*.dll
+*.so
+*.dylib
+
+# 临时文件
+*.tmp
+*.tmp.*
+log.txt
+*.log
+
+# 编译产生的中间文件
+[Dd]erivedDataCache/
+[Ii]ntermediate/
+Build/
+*.obj
+*.pch
+*.idb
+*.pdb
+*_BuiltData*.ini
+*.vcxproj
+*.vcxproj.filters
+*.sln
+
+# 可执行目标文件
+*.app
+Binaries/
+
+# 项目文件
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.db
+*.opendb
+
+# Visual Studio
+.vs/
+
+# Rider
+.idea/
+
+# 虚幻引擎生成的本地文件
+Saved/
+Intermediate/
+DerivedDataCache/
+
+# 可执行文件
+*.exe
